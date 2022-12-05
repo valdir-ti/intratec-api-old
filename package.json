@@ -5,6 +5,8 @@
   "author": "Valdir Silva <valdir.ti@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "ts-node dist/server.js",
+    "build": "tsc -p .",
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts"
   },
   "dependencies": {
